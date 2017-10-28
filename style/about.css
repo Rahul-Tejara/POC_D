@@ -1,0 +1,196 @@
+.navigation-container{
+	position: fixed;
+   /* background: rgba(11, 74, 104, 0.98);*/
+   background: rgba(35, 36, 40, 0.78);
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3);
+    z-index: 9999;
+    width: 100%;
+}
+
+
+.navigation-bar ul{
+	padding: 0px;
+	margin:0px;	
+}
+.company-name li{
+	text-transform: none!important;
+	font-weight: 600;
+	letter-spacing: 5px!important;
+	font-size: 25px!important;
+	padding: 10px 20px!important;
+	color: #e47d5d!important;
+    text-shadow: 2px 2px 4px #000000;
+}
+.navigation-bar ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 18px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+
+}
+.team-container{
+	margin-top: 
+}
+
+/*cover image */
+.cover-image{
+	padding: 0px;
+}
+.cover-image img{
+	width: 100%;
+}
+
+/* our team */
+.team-container{
+	padding: 40px 0px;
+}
+.team-card{
+padding: 10px;
+}
+.team-card .team-member{
+	padding: 0px 40px;
+}
+.team-card .team-member img{
+	border-radius: 50%;
+	width: 100%;
+	height: 200px;
+	box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3);
+}
+.team-card .team-member h3{
+	color: #e47d5d;
+	letter-spacing: 3px;
+
+}
+.team-container h1{
+	color: #0b468d;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* clients and partner */
+.clients-carousal{
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	padding: 20px 0px;
+}
+.clients-carousal .item{
+	height: 150px;
+}
+.clients-carousal .item img{
+	height: 100px;
+	width: 150px!important;
+}
+.clients-carousal h1{
+	margin: 0px;
+    padding: 40px;
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+
+
+/*Style for accordian and about page*/
+
+.accordian{
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+        border: none;
+    border-radius: none;
+    border-radius: 0;
+    background: transparent;
+    border-top: 1px solid #eee;
+
+    border-bottom: 1px solid #eee;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+
+}
+
+.accordian h4{
+	 font-weight: 600;
+}
+.Panel{
+	display: none;
+}
+.about-body{
+	
+	margin-top: 5%;
+	background-size: cover;
+	height: 100vh;
+}
+.text{
+	
+	font-size: 15px;
+
+}
+.image{
+	width: 25%;
+	margin-top: 2%;
+	height: 370px;
+	
+}
+.images{
+	width: 100%;
+	display: flex;
+}
+.image-name{
+	width: 265px;
+	height: 80px;
+	background-color: #f1e7e7;
+	text-align: center;
+}
+.image-name h2{
+	margin:0px;
+	font-size: 20px;
+}
+.image-name h3{
+	font-size: 15px;
+}
+.about-container{
+	position: absolute;
+	
+}
+.panel-content{
+	border-color: orange;
+	box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3);
+	padding: 15px;
+	width: 100%;
+	display: flex;
+}
+.heading{
+	text-align: center;
+	letter-spacing: 6px;
+	font-weight: 1000px;
+	margin-bottom: 3%;
+	
+}
+.text{
+	width: 50%;
+	padding: 10px;
+
+}
+.text p{
+	color: #504d4d;
+}
+.text-image{
+	width: 50%;
+	padding: 10px;
+}
+button:hover
+{
+    background-color:grey;
+    z-index:100;
+}
+.header-image{
+	
+	height: 320px;
+	width: 100%;
+}

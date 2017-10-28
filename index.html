@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <meta http-equiv="x-ua-compatible" content="IE=edge">
+		<title>File Sutra</title>
+  	<link rel="shortcut icon" href="http://filesutra.com/images/favicon.ico" />
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="http://filesutra.com/js/filesutra.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 navigation-container">
+			<nav class="navigation-bar">
+				<ul class="pull-left company-name">
+					<li>FILESUTRA</li>
+				</ul>
+				<ul class="pull-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+					<li>
+					 <div class="dropdown">
+					   <button class="btn btn-default dropdown-toggle drop-btn" type="button" data-toggle="dropdown">Import File from Cloud
+						<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+							<li onclick="selectApp('Google')">Google Drive</li>
+							<li onclick="selectApp('Dropbox')">Dropbox</li>
+							<li onclick="selectApp('Box')">Box</li>
+							<li onclick="selectApp('OneDrive')">OneDrive</li>
+							<li onclick="selectApp('AmazonCloud')">Amazon Cloud Drive</li>
+							<li class="divider"></li>
+							<li class="btnCld btn-connect"> Connect Google</li>
+						   </ul>
+					  </div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 cover-image">
+			<img src="http://www.sjsu.edu/cs100w/pics/Banner_ThisIsOurWorld664x301.jpg">
+		</div>
+	</div>
+</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 team-container">
+				<h1 class="text-center">What We Do</h1>
+				<div class="row" style="margin-top: 4%;">
+					<div class="col-md-12 text-center">
+					  <div class="row">
+							<div class="col-md-12 text-center">
+								<div class="text-center deteils">
+									Filesutra is an opensource tool to quickly implement the file import from popular cloud storage providers. Filesutra currently supports Google Drive, Microsoft OneDrive, Box and Dropbox. 
+								  	<div class="displayBtns">
+											<button class="importBtn" data-toggle="modal" data-target="#myModal">Import File from Cloud</button>
+											<!-- Modal -->
+												<div class="modal fade" id="myModal" role="dialog">
+													<div class="modal-dialog">
+														<!-- Modal content-->
+														<div class="modal-content">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal">&times;</button>
+																<h3 class="modal-title">Import File from Cloud</h3>
+															</div>
+															<div class="modal-body">
+																<div class="btnsBlock">
+																	<ul class="text-center btn-list">
+																		<li onclick="selectApp('Google')">Google Drive</li>
+																		<li onclick="selectApp('Dropbox')">Dropbox</li>
+																		<li onclick="selectApp('Box')">Box</li>
+																		<li onclick="selectApp('OneDrive')">OneDrive</li>
+																		<li onclick="selectApp('AmazonCloud')">Amazon Cloud Drive</li>
+																	</ul>
+																</div>
+															</div>
+															<div class="footer-btn">
+																	<button class="importBtn fBtn">Connect Google Drive</button>
+															</div>
+														</div>
+													</div>
+												</div>
+								  	</div>
+								</div>
+							</div>
+					 </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 team-container">
+				<h1 class="text-center">Our Team</h1>
+				<div class="row">
+					<div class="col-md-4 col-sm-4 team-card">
+						<div class="row">
+							<div class="col-md-12 team-member">
+								<div class="member-pic">
+								<img src="http://zylotech.com/uploaded_files/team/b321ad3710ab8f5823e4781dbd9005d6.jpg" alt="Ed Wolf">
+								  <div class="overlay">
+								    <div class="text">Senior Director & Head of Sales</div>
+								  </div>
+								  </div>
+								<h3 class="text-center">Ed Wolf</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4  team-card">
+						<div class="row">
+							<div class="col-md-12 team-member">
+							<div class="member-pic">
+								<img src="http://zylotech.com/uploaded_files/team/fb86443cba4efd4cf8a59c6f6ade3b9d.jpg" alt="Iqbal Kaur">
+								<div class="overlay">
+								    <div class="text">Co founder & Chief of Analytics</div>
+								  </div>
+								  </div>
+								<h3 class="text-center">Iqbal Kaur</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4  team-card">
+						<div class="row">
+							<div class="col-md-12 team-member">
+							<div class="member-pic">
+								<img src="http://zylotech.com/uploaded_files/team/f2806045c6d0a6f4aac452205534391f.jpg" alt="Jeffrey Whitney">
+								<div class="overlay">
+								    <div class="text">Chief Marketing Officer</div>
+								  </div>
+								  </div>
+								<h3 class="text-center">Jeffrey Whitney</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row curousel-block">
+			<div class="col-md-12 clients-carousal">
+				<h1 class="text-center">Our Clients & Partners</h1>
+				<div class="owl-carousel owl-theme cblock">
+				    <div class="item">
+				    	<img src="http://www.androidos.in/wp-content/uploads/2013/08/htc_logo.png">
+				    </div>
+				    <div class="item">
+				    	<img src="http://www.fico.com/sites/default/files/sprint-logo.png">
+				    </div>
+				    <div class="item">
+				    	<img src="http://iitj.ac.in/uploaded_docs/logo/lnt.png">
+				    </div>
+				    <div class="item">
+				    	<img src="http://iitj.ac.in/uploaded_docs/logo/tvs.png">
+				    </div>
+				    <div class="item">
+				    	<img src="https://www.autoliv.com/_layouts/15/autoliv.branding.common/Images/Autoliv_logo_72dpi.png">
+				    </div>
+				    <div class="item">
+				    	<img src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-logo.png?v=dd7153fcc7fa">
+				    </div>
+				    <div class="item">
+				    	<img src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/su/su-logo.png?v=dcddfb6b56a1">
+				    </div>
+				    
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-xs-6">
+					<ul>
+						<li><a class="small" href="faq">FAQs</a></li>
+						<li><a class="small" href="mailto:rahulptdr47@gmail.com"  onclick="trackNavigation(event)">Customer Service</a></li>
+						<li><a class="small">My Account</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-xs-6 text-uppercase text-center">
+					<p style="color: #46c2f1;">Connect with Us</p>
+					<a href="https://www.facebook.com" target="_blank" style="display:inline-block;"><img src="https://www.pethero.com/wp-content/themes/petheroblog/resources/images/facebook-icon.png"/ onclick="trackNavigation('social share', 'facebook')"></a>
+					<a href="https://www.instagram.com" target="_blank" style="display:inline-block;"><img src="https://www.pethero.com/wp-content/themes/petheroblog/resources/images/instagram-icon.png"/ onclick="trackNavigation('social share', 'instagram')"></a>
+				</div>
+				<div class="col-md-4 col-xs-12 footer-logo text-center">
+					<h1>File Sutra</h1>
+				</div>
+			</div>
+			<div class="row legal">
+			<div class="text-center" style="line-height:2;">
+					<div class="small">
+						<a href="https://subscription.com" target="_blank">Terms of Service</a> | <a href="https://subscription.com" target="_blank">Privacy Policy</a>
+					</div>
+					<div class="small">&copy; 2017 File Sutra. All Rights Reserved.</div>
+				</div>
+			</div>
+		</div>
+</body>
+
+<script type="text/javascript">
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 450){  
+		    $('.navigation-container').addClass("sticky");
+		  }
+		  else{
+		    $('.navigation-container').removeClass("sticky");
+		  }
+	});
+
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:false,
+            autoplay:true,
+   			autoplayTimeout:1500,
+        },
+        600:{
+            items:3,
+            nav:false,
+            autoplay:true,
+   			autoplayTimeout:1500,
+        },
+        1000:{
+            items:5,
+            nav:false,
+            loop:true,
+            autoplay:true,
+   			autoplayTimeout:3000,
+        }
+    }
+})
+
+$('li .dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+
+function selectApp(btnName){ 
+	  document.getElementsByClassName('fBtn')[0].innerHTML = "Connet "+btnName;
+		document.getElementsByClassName('btn-connect')[0].innerHTML = "Connect "+btnName;
+}
+</script>
+</html>

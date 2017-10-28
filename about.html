@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us | Zylotech</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	   <link rel="stylesheet" type="text/css" href="style/about.css">
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+   
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 navigation-container">
+			<nav class="navigation-bar">
+				<ul class="pull-left company-name">
+					<li>Zylotech</li>
+				</ul>
+				<ul class="pull-right">
+					<li>Home</li>
+					<li>About Us</li>
+					<li>Contact Us</li>	
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<div class="about-body">
+<div class="header-image">
+<img src="image/About-us-banner-img.png" height="320px" width="100%">
+<h1 class="heading">Who We Are</h1>
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-12 about-us">
+			<button class="accordian"><h4 class="pull-left">Overview</h4><h4 class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i></h4></button>
+				<div class="Panel">
+				<div class="panel-content">
+					<div class="text">
+
+						<h2 style="color:#ec7218;">We live with <strong>creativity</strong></h2>
+						<p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
+					</div>
+					<div class="text-image">
+						
+					</div>
+				</div>
+
+				</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 about-us">
+			<button class="accordian"><h4 class="pull-left">Team</h4><h4 class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i></h4></button>
+				<div class="Panel">
+			
+				<div class="images">
+					<div class="image">
+						<img src="image/abhi.jpg" height="270px" width="265px">
+						<div class="image-name">
+							<h2>Abhi Yadav</h2>
+							<h3>Founder & CEO</h3>
+						</div>
+					</div>
+					<div class="image">
+						<img src="image/iqbal.jpg" height="270px" width="265px">
+						<div class="image-name">
+							<h2>Iqbal Kaur</h2>
+							<h3>Co founder & Chief Of Analytics</h3>
+						</div>
+					</div>
+					<div class="image">
+						<img src="image/ed.jpg" height="270px" width="265px">
+						<div class="image-name">
+							<h2>Ed Wolf</h2>
+							<h3>Senior Director & Head Of Sales</h3>
+						</div>
+					</div>
+					<div class="image">
+						<img src="image/jeffrey.jpg" height="270px" width="265px">
+						<div class="image-name">
+							<h2>Jeffrey Whitney</h2>
+							<h3>Chief Marketing Officer</h3>
+						</div>
+					</div>
+				</div>
+				</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 about-us">
+			<button class="accordian"><h4 class="pull-left">Careers</h4><h4 class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i></h4></button>
+				<div class="Panel">
+					<p>Careers..</p>
+				</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+	  <script type="text/javascript" src="js/accordian.js"></script>
+</body>
+<script> 
+$(document).ready(function(){
+                function close_accordion_section() {
+                                if($('.accordian').is('.active')) {
+                                $('.accordian').removeClass('active');
+        $('.accordian .Panel').removeClass('open');
+                                $('.Panel').hide();
+                                }
+    }
+
+    $('.accordian').click(function(e,index) {
+        // Grab current anchor value
+                                var i=$(this).index();
+        var currentAttrValue = $(this)[i].nextElementSibling;
+
+        if($(e.target).is('.active')) {
+            close_accordion_section();
+        }else {
+            close_accordion_section();
+
+            // Add active class to section title
+            $(this).addClass('active');
+            // Open up the hidden content panel
+            $(currentAttrValue).slideDown(300).addClass('open'); 
+        }
+
+        e.preventDefault();
+    });
+
+});
+
+</script>
+
+</html>
